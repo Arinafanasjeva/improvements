@@ -1,0 +1,177 @@
+/* poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+/* playfair */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+* {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  background-color: #036563;
+  color: white;
+  width: 100%;
+  height: 3em;
+}
+li {
+  text-transform: uppercase;
+}
+
+/* FORM */
+.partner {
+  background-color: black;
+  background-image: url(../images/formBg.png);
+  background-size: cover;
+  padding: 2em;
+  /* -webkit-filter: brightness(0.5);
+  filter: brightness(0.5); */
+}
+
+.formH1 {
+  text-transform: uppercase;
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 2.5em;
+  margin: 15px;
+}
+.form-control {
+  border-radius: 10px;
+  margin: 15px;
+  padding-left: 1em;
+}
+input {
+  width: 25rem;
+  height: 2rem;
+  border: 1px solid white;
+}
+
+.textareaForm {
+  border-radius: 10px;
+  margin: 15px;
+  padding-left: 1em;
+}
+
+.signupButton {
+  border-radius: 10px;
+  width: 10rem;
+  height: 3rem;
+  text-transform: uppercase;
+  background-color: #036563;
+  color: white;
+  margin-left: 16rem;
+  font-size: larger;
+  border: none;
+}
+
+/* CIRCLE */
+.iconCircle {
+  max-width: 60%;
+}
+.circle-container {
+  position: relative;
+  width: 30em;
+  height: 30em;
+  padding: 2.8em;
+  /*2.8em = 2em*1.4 (2em = half the width of a link with img, 1.4 = sqrt(2))*/
+  border: 3px solid #ddb586;
+  border-radius: 50%;
+  margin: 1.75em auto 0;
+}
+.circle-container div {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* width: 4em; */
+  /* height: 4em; */
+  /* margin: -2em; */
+}
+.circle-container img {
+  display: block;
+  width: 100%;
+}
+.center h1 {
+  text-transform: uppercase;
+  color: #036563;
+  font-family: "Playfair Display", serif;
+  font-size: 2em;
+}
+.center {
+  transform: rotate(200deg) translate(7em) rotate(-200deg);
+}
+.icon1 {
+  transform: translate(15em);
+}
+.icon2 {
+  transform: rotate(260deg) translate(22em) rotate(-260deg);
+}
+.icon3 {
+  transform: rotate(60deg) translate(14em) rotate(-60deg);
+}
+.icon4 {
+  transform: rotate(134deg) translate(17.2em) rotate(-134deg);
+}
+.icon5 {
+  transform: rotate(179deg) translate(20em) rotate(-179deg);
+}
+.icon6 {
+  transform: rotate(216deg) translate(22em) rotate(-216deg);
+}
+.icon7 {
+  transform: rotate(315deg) translate(19em) rotate(-315deg);
+}
+.icon1 .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+.icon1 .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+/* Toggle this class - hide and show the popup */
+.icon1 .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation */
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

@@ -13,36 +13,55 @@
     <header>
         <ul class="header">
             <li class="about us">About us</li>
-            <li class="logo"></li>
+            <li class="logo"> Logo</li>
             <li class="contact">Contact</li>
         </ul>
     </header>
     <main>
-        <h1>Get more customers and increase your restaurant sales</h1>
-        <form class="formPartner">
+        <div class="partner">
+            <h1 class="formH1">Get more customers <br> and increase your <br> restaurant sales</h1>
+            <form class="formPartner">
 
-            <div class="formDetails">
-                <input type="text" class="form-control" placeholder="Business name" required>
-            </div>
-            <div class="formDetails">
-                <input type="email" name="email" placeholder="Email" required>
-            </div>
-            <div class="formDetails">
-                <input type="text" name="name" placeholder="Your name" required>
-            </div>
-            <div class="formDetails">
-                <input type="tel" name="phone_number" placeholder="Phone number" required>
-            </div>
-            <div class="formDetails">
-                <textarea name="comments" class="input" placeholder="Comments"></textarea>
-            </div>
-            <div class="formDetails">
-                <button class="signupButton">Sign up</button>
-            </div>
+                <div class="formDetails">
+                    <input type="text" class="form-control" placeholder=" Business name" required>
+                </div>
+                <div class="formDetails">
+                    <input type="email" class="form-control" name="email" placeholder=" Email" required>
+                </div>
+                <div class="formDetails">
+                    <input type="text" class="form-control" name="name" placeholder=" Your name" required>
+                </div>
+                <div class="formDetails">
+                    <input type="tel" class="form-control" name="phone_number" placeholder=" Phone number" required>
+                </div>
+                <div class="formDetails">
+                    <textarea name="comments" class="textareaForm" placeholder=" Comments" cols="60"
+                        rows="5"></textarea>
+                </div>
+                <div class="formDetails">
+                    <button class="signupButton">Sign up</button>
+                </div>
+            </form>
+            <br><br><br>
+        </div>
+        <br><br><br>
 
-        </form>
-
+        <div class='circle-container'>
+            <div class="center">
+                <h1>Why Qucikit?</h1>
+            </div>
+            <div class='icon1' onclick="myFunction()"><img src='images/icons/bakterie.png' class=" iconCircle"
+                    alt="Icon">
+                <span class="popuptext" id="myPopup">A Simple Popup!</span></div>
+            <div class='icon2'><img src='images/icons/allergener.png' class="iconCircle1" alt="Icon"></div>
+            <div class='icon3'><img src='images/icons/bestilling.png' class="iconCircle" alt="Icon"></div>
+            <div class='icon4'><img src='images/icons/betaling.png' class="iconCircle" alt="Icon"></div>
+            <div class='icon5'><img src='images/icons/data.png' class="iconCircle" alt="Icon"></div>
+            <div class='icon6'><img src='images/icons/mersalg.png' class="iconCircle" alt="Icon"></div>
+            <div class='icon7'><img src='images/icons/service.png' class="iconCircle" alt="Icon"></div>
+        </div>
     </main>
+    <script src="myjs.js"></script>
 </body>
 
 </html>
