@@ -225,3 +225,23 @@ input {
     opacity: 1;
   }
 }
+
+.signupBigButton {
+  padding: 6em;
+  text-align: center;
+}
+
+.button {
+  /* position: absolute; */
+  border-radius: 10px;
+  width: 20rem;
+  height: 3rem;
+  text-transform: uppercase;
+  background-color: #036563;
+  /* color: white; */
+  font-size: larger;
+  border: none;
+}
+.signupA {
+  color: white;
+}
