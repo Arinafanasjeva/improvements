@@ -225,12 +225,12 @@ input {
     opacity: 1;
   }
 }
+/* SIGN UP BUTTON */
 
 .signupBigButton {
   padding: 6em;
   text-align: center;
 }
-
 .button {
   /* position: absolute; */
   border-radius: 10px;
