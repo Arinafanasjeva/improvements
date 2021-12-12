@@ -76,8 +76,8 @@ input {
 }
 .circle-container {
   position: relative;
-  width: 30em;
-  height: 30em;
+  width: 20em;
+  height: 20em;
   padding: 2.8em;
   /*2.8em = 2em*1.4 (2em = half the width of a link with img, 1.4 = sqrt(2))*/
   border: 3px solid #ddb586;
@@ -101,32 +101,33 @@ input {
   text-transform: uppercase;
   color: #036563;
   font-family: "Playfair Display", serif;
-  font-size: 40px;
+  font-size: 6em;
+  text-align: center;
+  padding-bottom: 1em;
 }
-.center {
+/* .center {
   transform: rotate(190deg) translate(8.5em) rotate(-190deg);
-}
+} */
 .icon1 {
-  cursor: pointer;
-  transform: translate(15em);
+  transform: translate(10em);
 }
 .icon2 {
-  transform: rotate(260deg) translate(22em) rotate(-260deg);
+  transform: rotate(258deg) translate(16em) rotate(-258deg);
 }
 .icon3 {
-  transform: rotate(60deg) translate(14em) rotate(-60deg);
+  transform: rotate(70deg) translate(9em) rotate(-70deg);
 }
 .icon4 {
-  transform: rotate(134deg) translate(17.2em) rotate(-134deg);
+  transform: rotate(134deg) translate(12em) rotate(-134deg);
 }
 .icon5 {
-  transform: rotate(179deg) translate(20em) rotate(-179deg);
+  transform: rotate(179deg) translate(15em) rotate(-179deg);
 }
 .icon6 {
-  transform: rotate(216deg) translate(22em) rotate(-216deg);
+  transform: rotate(216deg) translate(17em) rotate(-216deg);
 }
 .icon7 {
-  transform: rotate(315deg) translate(19em) rotate(-315deg);
+  transform: rotate(308deg) translate(13em) rotate(-308deg);
 }
 .popupH1 {
   font-size: 20px;
@@ -135,13 +136,16 @@ input {
 .popuptext p {
   font-size: 14px;
 }
-/* Popup bacterial spread */
-.icon1 .popuptext {
+/* POPUP WINDOWS */
+.box {
+  cursor: pointer;
+}
+.box .popuptext {
   visibility: hidden;
   width: 350px;
   height: 120px;
-  background-color: #036563;
-  color: #fff;
+  background-color: #ddb586;
+  color: black;
   text-align: center;
   border-radius: 6px;
   padding: 8px 0;
@@ -151,23 +155,59 @@ input {
   left: 130%;
   margin-left: -100px;
 }
-.icon1 .popuptext::after {
+.box .popuptext::after {
   content: "";
   position: absolute;
   top: 100%;
   left: 4%;
   border-width: 6px;
   border-style: solid;
-  border-color: #036563 transparent transparent transparent;
+  border-color: #ddb586 transparent transparent transparent;
+}
+.icon2 .popuptext {
+  height: 100px;
+  bottom: 100%;
+  left: 0%;
+}
+.icon2 .popuptext::after {
+  left: 45%;
+}
+.icon3 .popuptext {
+  height: 90px;
+  bottom: 30%;
+  left: 130%;
+}
+.icon4 .popuptext {
+  height: 90px;
+  bottom: 40%;
+  left: -180%;
+}
+.icon4 .popuptext::after {
+  left: 93%;
+}
+.icon5 .popuptext {
+  height: 90px;
+  left: -180%;
+}
+.icon5 .popuptext::after {
+  left: 93%;
+}
+.icon6 .popuptext {
+  height: 100px;
+  left: -180%;
+}
+.icon6 .popuptext::after {
+  left: 93%;
+}
+.icon7 .popuptext {
+  height: 100px;
 }
 
-/* Toggle this class - hide and show the popup */
-.icon1 .show {
+.box .show {
   visibility: visible;
   -webkit-animation: fadeIn 1s;
   animation: fadeIn 1s;
 }
-
 /* Add animation */
 @-webkit-keyframes fadeIn {
   from {
