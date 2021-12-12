@@ -226,7 +226,6 @@ input {
   }
 }
 /* SIGN UP BUTTON */
-
 .signupBigButton {
   padding: 6em;
   text-align: center;
@@ -244,4 +243,35 @@ input {
 }
 .signupA {
   color: white;
+}
+
+/* FEATURES */
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  background-color: #fafafa;
+}
+.featuresImg {
+  max-width: 100%;
+}
+.featuresText {
+  padding: 3em;
+  line-height: 1.6;
+}
+.featuresH1 {
+  font-family: "Playfair Display", serif;
+  font-weight: lighter;
+  text-transform: uppercase;
+  line-height: 2;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  /* padding: 3em; */
+  /* border-bottom: 2px solid black; */
+}
+.featuresH2 {
+  font-family: "Playfair Display", serif;
+  padding-top: 3em;
+}
+.entry-hr {
+  margin-right: 70%;
 }
