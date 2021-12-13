@@ -23,7 +23,64 @@
 li {
   text-transform: uppercase;
 }
+/* ************************************************CONTACT HTML PAGE************************************************ */
+/* INTRO TEXT */
+.introContact {
+  padding: 15em 25em 15em 25em;
+}
+.contactH1 {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  color: #036563;
+  font-size: 2em;
+}
 
+/* FORM */
+.formContact {
+  background: url(/images/contactBg.png);
+  background-size: cover;
+  padding-left: 2em;
+  padding-top: 10em;
+}
+.form-controlContact {
+  border-radius: 10px;
+  margin: 15px;
+  padding-left: 1em;
+  width: 35rem;
+  height: 2.5rem;
+  border: 1px solid white;
+}
+.textareaFormContact {
+  width: 40rem;
+  border-radius: 10px;
+  margin: 15px;
+  padding-left: 1em;
+}
+.formFileContact {
+  padding-left: 1em;
+  color: white;
+  font-size: 1em;
+}
+.CV {
+  text-transform: uppercase;
+  font-size: 1.3em;
+}
+.fileContact {
+  border: none;
+}
+.signupButtonContact {
+  border-radius: 10px;
+  width: 10rem;
+  height: 3rem;
+  text-transform: uppercase;
+  background-color: #036563;
+  color: white;
+  margin-left: 32rem;
+  font-size: larger;
+  border: none;
+}
+
+/* ************************************************PARTNER HTML PAGE************************************************ */
 /* FORM */
 .partner {
   /* background-color: black; */
@@ -319,7 +376,22 @@ input {
     display: none;
   }
 }
+/* SMALL LAPTOP */
 @media screen and (min-width: 1000px) and (max-width: 1024px) {
+  /* ************************************************CONTACT HTML PAGE************************************************ */
+  /* INTRO TEXT */
+  .introContact {
+    padding: 12em 16em 12em 16em;
+  }
+  /* FORM */
+  .form-controlContact {
+    width: 30rem;
+  }
+  .textareaFormContact {
+    width: 35rem;
+  }
+
+  /* ************************************************PARTNER HTML PAGE************************************************ */
   /* CIRCLE */
   .box .popuptext {
     width: 250px;
@@ -381,7 +453,41 @@ input {
   max-width: 100%;
 }
 
+/* TABLETS BIG */
 @media screen and (min-width: 768px) and (max-width: 999px) {
+  /* ************************************************CONTACT HTML PAGE************************************************ */
+  /* INTRO TEXT */
+  .introContact {
+    padding: 8em 12em 8em 12em;
+  }
+  .contactH1 {
+    font-size: 1.5em;
+  }
+  /* FORM */
+  .formContact {
+    background-position: center;
+    padding-left: 2em;
+    padding-top: 9em;
+  }
+  .form-controlContact {
+    width: 30rem;
+  }
+  .textareaFormContact {
+    width: 35rem;
+  }
+  .formFileContact {
+    font-size: 0.8em;
+  }
+
+  .signupButtonContact {
+    border-radius: 10px;
+    width: 9rem;
+    height: 2.5rem;
+    margin-left: 28rem;
+  }
+
+  /* ************************************************PARTNER HTML PAGE************************************************ */
+
   /* FORM */
   .partner {
     background-position: center;
@@ -456,7 +562,42 @@ input {
     max-width: 100%;
   }
 }
+
+/* TABLETS SMALL */
 @media screen and (min-width: 640px) and (max-width: 767px) {
+  /* ************************************************CONTACT HTML PAGE************************************************ */
+  /* INTRO TEXT */
+  .introContact {
+    padding: 8em 12em 8em 12em;
+  }
+  .contactH1 {
+    font-size: 1.5em;
+  }
+  /* FORM */
+  .formContact {
+    background-position: center;
+    padding-left: 2em;
+    padding-top: 9em;
+  }
+  .form-controlContact {
+    width: 25rem;
+  }
+  .textareaFormContact {
+    width: 30rem;
+  }
+  .formFileContact {
+    font-size: 0.8em;
+  }
+
+  .signupButtonContact {
+    border-radius: 10px;
+    width: 9rem;
+    height: 2.5rem;
+    margin-left: 23rem;
+  }
+
+  /* ************************************************PARTNER HTML PAGE************************************************ */
+
   /* FORM */
   .partner {
     padding-left: 3em;
@@ -488,7 +629,41 @@ input {
     font-size: 2em;
   }
 }
+
+/* MOBILE M AND L */
 @media screen and (min-width: 374px) and (max-width: 767px) {
+  /* ************************************************CONTACT HTML PAGE************************************************ */
+  /* INTRO TEXT */
+  .introContact {
+    padding: 6em 5em 6em 5em;
+  }
+  .contactH1 {
+    font-size: 1.3em;
+  }
+  /* FORM */
+  .formContact {
+    background-position: center;
+    padding-left: 1em;
+    padding-top: 4em;
+  }
+  .form-controlContact {
+    width: 18rem;
+  }
+  .textareaFormContact {
+    width: 18.5rem;
+  }
+  .formFileContact {
+    padding-left: 1.2em;
+    font-size: 0.7em;
+  }
+
+  .signupButtonContact {
+    width: 8rem;
+    height: 2.3rem;
+    margin-left: 13rem;
+  }
+
+  /* ************************************************PARTNER HTML PAGE************************************************ */
   /* FORM */
   .partner {
     background-position: center;
@@ -569,7 +744,41 @@ input {
   }
 }
 
+/* MOBILE S SIZE AND SMALLER */
 @media screen and (max-width: 373px) {
+  /* ************************************************CONTACT HTML PAGE************************************************ */
+  /* INTRO TEXT */
+  .introContact {
+    padding: 4em 2em 4em 2em;
+  }
+  .contactH1 {
+    font-size: 1em;
+  }
+  /* FORM */
+  .formContact {
+    background-position: center;
+    padding-left: 1em;
+    padding-top: 4em;
+  }
+  .form-controlContact {
+    height: 2.5em;
+    width: 15rem;
+  }
+  .textareaFormContact {
+    width: 16rem;
+  }
+  .formFileContact {
+    padding-left: 1.2em;
+    font-size: 0.7em;
+  }
+
+  .signupButtonContact {
+    width: 8rem;
+    height: 2.3rem;
+    margin-left: 10rem;
+  }
+
+  /* ************************************************PARTNER HTML PAGE************************************************ */
   /* FORM */
   .partner {
     background-position: center;
