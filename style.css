@@ -446,3 +446,13 @@ input {
     max-width: 100%;
   }
 }
+@media screen and (min-width: 200px) and (max-width: 767px) {
+  /* QUICKIT SOFTWARE */
+  .quickitSoftware {
+    padding-left: 0em;
+    padding-right: 0em;
+  }
+  .softwareImg {
+    max-width: 20%;
+  }
+}
