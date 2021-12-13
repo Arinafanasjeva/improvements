@@ -23,12 +23,12 @@
 li {
   text-transform: uppercase;
 }
-/* ************************************************CONTACT HTML PAGE************************************************ */
+/* ************************************************WORK HTML PAGE************************************************ */
 /* INTRO TEXT */
-.introContact {
+.introWork {
   padding: 15em 25em 15em 25em;
 }
-.contactH1 {
+.workH1 {
   text-align: center;
   font-family: "Playfair Display", serif;
   color: #036563;
@@ -36,7 +36,7 @@ li {
 }
 
 /* FORM */
-.formContactH1 {
+.formWorkH1 {
   text-transform: uppercase;
   color: white;
   font-family: "Playfair Display", serif;
@@ -44,13 +44,13 @@ li {
   margin: 15px;
   font-weight: normal;
 }
-.formContact {
-  background: url(/images/contactBg.png);
+.formWork {
+  background: url(/images/workBg.png);
   background-size: cover;
   padding-left: 2em;
   padding-top: 10em;
 }
-.form-controlContact {
+.form-controlWork {
   border-radius: 10px;
   margin: 15px;
   padding-left: 1em;
@@ -58,13 +58,13 @@ li {
   height: 2.5rem;
   border: 1px solid white;
 }
-.textareaFormContact {
+.textareaFormWork {
   width: 40rem;
   border-radius: 10px;
   margin: 15px;
   padding-left: 1em;
 }
-.formFileContact {
+.formFileWork {
   padding-left: 1em;
   color: white;
   font-size: 1em;
@@ -73,10 +73,10 @@ li {
   text-transform: uppercase;
   font-size: 1.3em;
 }
-.fileContact {
+.fileWork {
   border: none;
 }
-.signupButtonContact {
+.signupButtonWork {
   border-radius: 10px;
   width: 10rem;
   height: 3rem;
@@ -386,16 +386,16 @@ input {
 }
 /* SMALL LAPTOP */
 @media screen and (min-width: 1000px) and (max-width: 1024px) {
-  /* ************************************************CONTACT HTML PAGE************************************************ */
+  /* ************************************************WORK HTML PAGE************************************************ */
   /* INTRO TEXT */
-  .introContact {
+  .introWork {
     padding: 12em 16em 12em 16em;
   }
   /* FORM */
-  .form-controlContact {
+  .form-controlWork {
     width: 30rem;
   }
-  .textareaFormContact {
+  .textareaFormWork {
     width: 35rem;
   }
 
@@ -463,31 +463,30 @@ input {
 
 /* TABLETS BIG */
 @media screen and (min-width: 768px) and (max-width: 999px) {
-  /* ************************************************CONTACT HTML PAGE************************************************ */
+  /* ************************************************WORK HTML PAGE************************************************ */
   /* INTRO TEXT */
-  .introContact {
+  .introWork {
     padding: 8em 12em 8em 12em;
   }
-  .contactH1 {
+  .workH1 {
     font-size: 1.5em;
   }
   /* FORM */
-  .formContact {
+  .formWork {
     background-position: center;
     padding-left: 2em;
     padding-top: 9em;
   }
-  .form-controlContact {
+  .form-controlWork {
     width: 30rem;
   }
-  .textareaFormContact {
+  .textareaFormWork {
     width: 35rem;
   }
-  .formFileContact {
+  .formFileWork {
     font-size: 0.8em;
   }
-
-  .signupButtonContact {
+  .signupButtonWork {
     border-radius: 10px;
     width: 9rem;
     height: 2.5rem;
@@ -573,34 +572,33 @@ input {
 
 /* TABLETS SMALL */
 @media screen and (min-width: 640px) and (max-width: 767px) {
-  /* ************************************************CONTACT HTML PAGE************************************************ */
+  /* ************************************************WORK HTML PAGE************************************************ */
   /* INTRO TEXT */
-  .introContact {
+  .introWork {
     padding: 8em 12em 8em 12em;
   }
-  .contactH1 {
+  .workH1 {
     font-size: 1.5em;
   }
   /* FORM */
-  .formContactH1 {
+  .formWorkH1 {
     font-size: 2em;
   }
-  .formContact {
+  .formWork {
     background-position: center;
     padding-left: 2em;
     padding-top: 9em;
   }
-  .form-controlContact {
+  .form-controlWork {
     width: 25rem;
   }
-  .textareaFormContact {
+  .textareaFormWork {
     width: 30rem;
   }
-  .formFileContact {
+  .formFileWork {
     font-size: 0.8em;
   }
-
-  .signupButtonContact {
+  .signupButtonWork {
     border-radius: 10px;
     width: 9rem;
     height: 2.5rem;
@@ -643,35 +641,34 @@ input {
 
 /* MOBILE M AND L */
 @media screen and (min-width: 374px) and (max-width: 767px) {
-  /* ************************************************CONTACT HTML PAGE************************************************ */
+  /* ************************************************WORK HTML PAGE************************************************ */
   /* INTRO TEXT */
-  .introContact {
+  .introWork {
     padding: 6em 5em 6em 5em;
   }
-  .contactH1 {
+  .workH1 {
     font-size: 1.3em;
   }
   /* FORM */
-  .formContactH1 {
+  .formWorkH1 {
     font-size: 1.5em;
   }
-  .formContact {
+  .formWork {
     background-position: center;
     padding-left: 1em;
     padding-top: 4em;
   }
-  .form-controlContact {
+  .form-controlWork {
     width: 18rem;
   }
-  .textareaFormContact {
+  .textareaFormWork {
     width: 18.5rem;
   }
-  .formFileContact {
+  .formFileWork {
     padding-left: 1.2em;
     font-size: 0.7em;
   }
-
-  .signupButtonContact {
+  .signupButtonWork {
     width: 8rem;
     height: 2.3rem;
     margin-left: 13rem;
@@ -760,36 +757,36 @@ input {
 
 /* MOBILE S SIZE AND SMALLER */
 @media screen and (max-width: 373px) {
-  /* ************************************************CONTACT HTML PAGE************************************************ */
+  /* ************************************************WORK HTML PAGE************************************************ */
   /* INTRO TEXT */
-  .introContact {
+  .introWork {
     padding: 4em 2em 4em 2em;
   }
-  .contactH1 {
+  .workH1 {
     font-size: 1em;
   }
   /* FORM */
-  .formContactH1 {
+  .formWorkH1 {
     font-size: 1.2em;
   }
-  .formContact {
+  .formWork {
     background-position: center;
     padding-left: 1em;
     padding-top: 4em;
   }
-  .form-controlContact {
+  .form-controlWork {
     height: 2.5em;
     width: 15rem;
   }
-  .textareaFormContact {
+  .textareaFormWork {
     width: 16rem;
   }
-  .formFileContact {
+  .formFileWork {
     padding-left: 1.2em;
     font-size: 0.7em;
   }
 
-  .signupButtonContact {
+  .signupButtonWork {
     width: 8rem;
     height: 2.3rem;
     margin-left: 10rem;
