@@ -426,15 +426,15 @@ input {
 .quickitSoftware {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  padding-left: 15em;
-  padding-right: 14em;
+  height: 38em;
 }
 .softwareImg {
-  max-width: 90%;
-  max-height: 100%;
+  max-height: 70%;
+  padding-left: 15em;
 }
 .softwareText {
   text-align: center;
+  padding-right: 15em;
 }
 .softwareText h1 {
   font-family: "Playfair Display", serif;
@@ -442,13 +442,13 @@ input {
 }
 
 /* MEDIA QUERIES */
-@media screen and (min-width: 1025px) {
+@media only screen and (min-width: 1400px) {
   .mobileWhyQuickit {
     display: none;
   }
 }
 /* SMALL LAPTOP */
-@media screen and (min-width: 1000px) and (max-width: 1024px) {
+@media only screen and (max-width: 1030px) and (min-width: 1000px) {
   /* ************************************************CONTACT HTML PAGE************************************************ */
   .introContact {
     padding: 12em 16em 12em 16em;
@@ -528,16 +528,17 @@ input {
 }
 
 /* QUICKIT SOFTWARE */
-.quickitSoftware {
-  padding-left: 4em;
-  padding-right: 9em;
-}
 .softwareImg {
   max-width: 100%;
+  padding-left: 10em;
+}
+.softwareText {
+  font-size: 0.8em;
+  padding-right: 10em;
 }
 
 /* TABLETS BIG */
-@media screen and (min-width: 768px) and (max-width: 999px) {
+@media only screen and (max-width: 999px) and (min-width: 768px) {
   /* ************************************************CONTACT HTML PAGE************************************************ */
   .introContact {
     padding: 8em 12em 8em 12em;
@@ -675,7 +676,7 @@ input {
 }
 
 /* TABLETS SMALL */
-@media screen and (min-width: 640px) and (max-width: 767px) {
+@media only screen and (max-width: 767px) and (min-width: 640px) {
   /* ************************************************CONTACT HTML PAGE************************************************ */
   /* INTRO TEXT */
   .introContact {
@@ -776,7 +777,7 @@ input {
 }
 
 /* MOBILE M AND L */
-@media screen and (min-width: 374px) and (max-width: 767px) {
+@media screen and (max-width: 767px) and (min-width: 374px) {
   /* ************************************************CONTACT HTML PAGE************************************************ */
   /* INTRO TEXT */
   .introContact {
