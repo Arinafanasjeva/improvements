@@ -23,134 +23,7 @@
 li {
   text-transform: uppercase;
 }
-/* ************************************************CONTACT HTML PAGE************************************************ */
-/* INTRO TEXT */
-.introContact {
-  padding: 15em 25em 15em 25em;
-}
-.contactH1 {
-  text-align: center;
-  font-family: "Playfair Display", serif;
-  color: #036563;
-  font-size: 2em;
-}
 
-/* FORM */
-.formContactH1 {
-  text-transform: uppercase;
-  color: white;
-  font-family: "Playfair Display", serif;
-  font-size: 2.5em;
-  margin: 15px;
-  font-weight: normal;
-}
-.formContact {
-  background: url(/images/contactusBg.png);
-  background-size: cover;
-  padding-left: 2em;
-  padding-top: 10em;
-}
-.form-controlContact {
-  border-radius: 10px;
-  margin: 15px;
-  padding-left: 1em;
-  width: 35rem;
-  height: 2.5rem;
-  border: 1px solid white;
-}
-.textareaFormContact {
-  width: 40rem;
-  border-radius: 10px;
-  margin: 15px;
-  padding-left: 1em;
-}
-.formFileContact {
-  padding-left: 1em;
-  color: white;
-  font-size: 1em;
-}
-.CV {
-  text-transform: uppercase;
-  font-size: 1.3em;
-}
-.fileContact {
-  border: none;
-}
-.signupButtonContact {
-  border-radius: 10px;
-  width: 10rem;
-  height: 3rem;
-  text-transform: uppercase;
-  background-color: #036563;
-  color: white;
-  margin-left: 32rem;
-  font-size: larger;
-  border: none;
-}
-/* ************************************************WORK HTML PAGE************************************************ */
-/* INTRO TEXT */
-.introWork {
-  padding: 15em 25em 15em 25em;
-}
-.workH1 {
-  text-align: center;
-  font-family: "Playfair Display", serif;
-  color: #036563;
-  font-size: 2em;
-}
-
-/* FORM */
-.formWorkH1 {
-  text-transform: uppercase;
-  color: white;
-  font-family: "Playfair Display", serif;
-  font-size: 2.5em;
-  margin: 15px;
-  font-weight: normal;
-}
-.formWork {
-  background: url(/images/workBg.png);
-  background-size: cover;
-  padding-left: 2em;
-  padding-top: 10em;
-}
-.form-controlWork {
-  border-radius: 10px;
-  margin: 15px;
-  padding-left: 1em;
-  width: 35rem;
-  height: 2.5rem;
-  border: 1px solid white;
-}
-.textareaFormWork {
-  width: 40rem;
-  border-radius: 10px;
-  margin: 15px;
-  padding-left: 1em;
-}
-.formFileWork {
-  padding-left: 1em;
-  color: white;
-  font-size: 1em;
-}
-.CV {
-  text-transform: uppercase;
-  font-size: 1.3em;
-}
-.fileWork {
-  border: none;
-}
-.signupButtonWork {
-  border-radius: 10px;
-  width: 10rem;
-  height: 3rem;
-  text-transform: uppercase;
-  background-color: #036563;
-  color: white;
-  margin-left: 32rem;
-  font-size: larger;
-  border: none;
-}
 /* ************************************************PARTNER HTML PAGE************************************************ */
 /* FORM */
 .partner {
@@ -440,7 +313,204 @@ input {
   font-family: "Playfair Display", serif;
   font-size: 3em;
 }
+/* ************************************************ABOUT US HTML PAGE************************************************ */
+.aboutH1 {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  color: #036563;
+  font-size: 3em;
+  padding: 1em;
+}
+.AnneSofie {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 0.5fr));
+  padding: 5em;
+  align-items: center;
+  /* background-color: #8b5136; */
+  background-color: #036563;
+}
+.AnneSofieP {
+  padding: 3em;
+  background-color: #ddb586;
+  border-radius: 10%;
+  font-family: "Playfair Display", serif;
+  line-height: 1.6;
+}
+.AnneSofiePic {
+  max-width: 70%;
+  /* max-height: 50%; */
+  padding-left: 5em;
+  align-self: center;
+}
 
+.aboutP {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 0.5fr));
+  padding: 5em;
+}
+
+.MissionVision {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 0.5fr));
+  text-align: center;
+}
+.Mission {
+  padding: 3em;
+}
+.MissionH1 {
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+  font-size: 3em;
+  padding-bottom: 0.5em;
+}
+.MissionP {
+  background-color: #036563;
+  border-radius: 20px;
+  padding: 1em;
+  color: white;
+}
+.Vision {
+  padding: 3em;
+}
+.VisionH1 {
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+  font-size: 3em;
+  padding-bottom: 0.5em;
+}
+.VisionP {
+  background-color: #ddb586;
+  border-radius: 20px;
+  padding: 1em;
+}
+/* ************************************************CONTACT HTML PAGE************************************************ */
+/* INTRO TEXT */
+.introContact {
+  padding: 15em 25em 15em 25em;
+}
+.contactH1 {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  color: #036563;
+  font-size: 2em;
+}
+
+/* FORM */
+.formContactH1 {
+  text-transform: uppercase;
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 2.5em;
+  margin: 15px;
+  font-weight: normal;
+}
+.formContact {
+  background: url(/images/contactusBg.png);
+  background-size: cover;
+  padding-left: 2em;
+  padding-top: 10em;
+}
+.form-controlContact {
+  border-radius: 10px;
+  margin: 15px;
+  padding-left: 1em;
+  width: 35rem;
+  height: 2.5rem;
+  border: 1px solid white;
+}
+.textareaFormContact {
+  width: 40rem;
+  border-radius: 10px;
+  margin: 15px;
+  padding-left: 1em;
+}
+.formFileContact {
+  padding-left: 1em;
+  color: white;
+  font-size: 1em;
+}
+.CV {
+  text-transform: uppercase;
+  font-size: 1.3em;
+}
+.fileContact {
+  border: none;
+}
+.signupButtonContact {
+  border-radius: 10px;
+  width: 10rem;
+  height: 3rem;
+  text-transform: uppercase;
+  background-color: #036563;
+  color: white;
+  margin-left: 32rem;
+  font-size: larger;
+  border: none;
+}
+/* ************************************************WORK HTML PAGE************************************************ */
+/* INTRO TEXT */
+.introWork {
+  padding: 15em 25em 15em 25em;
+}
+.workH1 {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  color: #036563;
+  font-size: 2em;
+}
+
+/* FORM */
+.formWorkH1 {
+  text-transform: uppercase;
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 2.5em;
+  margin: 15px;
+  font-weight: normal;
+}
+.formWork {
+  background: url(/images/workBg.png);
+  background-size: cover;
+  padding-left: 2em;
+  padding-top: 10em;
+}
+.form-controlWork {
+  border-radius: 10px;
+  margin: 15px;
+  padding-left: 1em;
+  width: 35rem;
+  height: 2.5rem;
+  border: 1px solid white;
+}
+.textareaFormWork {
+  width: 40rem;
+  border-radius: 10px;
+  margin: 15px;
+  padding-left: 1em;
+}
+.formFileWork {
+  padding-left: 1em;
+  color: white;
+  font-size: 1em;
+}
+.CV {
+  text-transform: uppercase;
+  font-size: 1.3em;
+}
+.fileWork {
+  border: none;
+}
+.signupButtonWork {
+  border-radius: 10px;
+  width: 10rem;
+  height: 3rem;
+  text-transform: uppercase;
+  background-color: #036563;
+  color: white;
+  margin-left: 32rem;
+  font-size: larger;
+  border: none;
+}
 /* MEDIA QUERIES */
 @media only screen and (min-width: 1400px) {
   .mobileWhyQuickit {
