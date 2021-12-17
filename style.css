@@ -95,8 +95,9 @@ li {
 .workH1 {
   text-align: center;
   font-family: "Playfair Display", serif;
+  font-weight: normal;
   color: #036563;
-  font-size: 2em;
+  font-size: 2.2em;
 }
 
 /* FORM */
