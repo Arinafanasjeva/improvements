@@ -298,7 +298,7 @@ input {
 }
 .quickitSoftware {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(630px, 1fr));
   height: 38em;
 }
 .softwareImg {
@@ -323,16 +323,13 @@ input {
 }
 .AnneSofie {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 0.5fr));
+  grid-template-columns: repeat(auto-fit, minmax(630px, 0.5fr));
   padding: 5em;
   align-items: center;
   /* background-color: #8b5136; */
 }
 .AnneSofieP {
   padding: 3em;
-  /* background-color: #ddb586; */
-  background-color: white;
-  /* border-radius: 10%; */
   font-family: "Playfair Display", serif;
   line-height: 1.6;
   color: #036563;
@@ -346,7 +343,7 @@ input {
 
 .aboutP {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 0.5fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 0.5fr));
   padding: 5em;
   line-height: 2;
   border-top: 2px solid black;
@@ -361,12 +358,18 @@ input {
 
 .MissionVision {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 0.5fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 0.5fr));
   text-align: center;
+  padding: 3em;
 }
 .Mission {
   padding: 3em;
+  border-radius: 50%;
+  width: 380px;
+  height: 380px;
+  background-color: #ddb586;
 }
+
 .MissionH1 {
   font-family: "Playfair Display", serif;
   font-weight: normal;
@@ -374,14 +377,18 @@ input {
   padding-bottom: 0.5em;
 }
 .MissionP {
-  /* background-color: #036563; */
-  background-color: #ddb586;
-  border-radius: 20px;
-  padding: 1em;
-  /* color: white; */
+  padding: 2em;
+}
+.circleMission {
+  padding-top: 8em;
+  padding-left: 10em;
 }
 .Vision {
   padding: 3em;
+  border-radius: 50%;
+  width: 380px;
+  height: 380px;
+  background-color: #8b5136;
 }
 .VisionH1 {
   font-family: "Playfair Display", serif;
@@ -390,10 +397,11 @@ input {
   padding-bottom: 0.5em;
 }
 .VisionP {
-  background-color: #ddb586;
-  /* border-radius: 50%; */
-  border-radius: 20px;
+  /* background-color: #ddb586; */
   padding: 1em;
+}
+.circleVision {
+  padding-right: 12em;
 }
 /* ************************************************CONTACT HTML PAGE************************************************ */
 /* INTRO TEXT */
@@ -531,6 +539,56 @@ input {
 }
 /* SMALL LAPTOP */
 @media only screen and (max-width: 1030px) and (min-width: 1000px) {
+  /* ************************************************ABOUT US HTML PAGE************************************************ */
+  .AnneSofie {
+    padding: 2em;
+  }
+  .AnneSofieP {
+    padding: 2em;
+  }
+  .AnneSofiePic {
+    max-width: 70%;
+    padding-left: 5em;
+  }
+
+  .aboutP {
+    padding: 4em;
+    font-size: 0.8em;
+  }
+
+  .MissionVision {
+    padding: 3em;
+  }
+  .Mission {
+    width: 310px;
+    height: 310px;
+  }
+
+  .MissionH1 {
+    font-size: 2.5em;
+  }
+  .MissionP {
+    padding: 2em;
+    font-size: 0.9em;
+  }
+  .circleMission {
+    padding-top: 8em;
+    padding-left: 1em;
+  }
+  .Vision {
+    width: 310px;
+    height: 310px;
+  }
+  .VisionH1 {
+    font-size: 2.5em;
+  }
+  .VisionP {
+    padding: 1em;
+    font-size: 0.9em;
+  }
+  .circleVision {
+    padding-left: 2em;
+  }
   /* ************************************************CONTACT HTML PAGE************************************************ */
   .introContact {
     padding: 12em 16em 12em 16em;
@@ -621,6 +679,56 @@ input {
 
 /* TABLETS BIG */
 @media only screen and (max-width: 999px) and (min-width: 768px) {
+  /* ************************************************ABOUT US HTML PAGE************************************************ */
+  .AnneSofie {
+    padding: 1em;
+  }
+  .AnneSofieP {
+    padding: 0em;
+  }
+  .AnneSofiePic {
+    max-width: 90%;
+    padding-left: 2em;
+  }
+
+  .aboutP {
+    padding: 4em;
+    font-size: 0.8em;
+  }
+
+  .MissionVision {
+    padding: 3em;
+  }
+  .Mission {
+    width: 250px;
+    height: 250px;
+  }
+
+  .MissionH1 {
+    font-size: 2em;
+  }
+  .MissionP {
+    padding: 1em;
+    font-size: 0.8em;
+  }
+  .circleMission {
+    padding-top: 8em;
+    padding-left: 0em;
+  }
+  .Vision {
+    width: 250px;
+    height: 250px;
+  }
+  .VisionH1 {
+    font-size: 2em;
+  }
+  .VisionP {
+    padding: 0em;
+    font-size: 0.8em;
+  }
+  .circleVision {
+    padding-left: 0em;
+  }
   /* ************************************************CONTACT HTML PAGE************************************************ */
   .introContact {
     padding: 8em 12em 8em 12em;
@@ -759,6 +867,55 @@ input {
 
 /* TABLETS SMALL */
 @media only screen and (max-width: 767px) and (min-width: 640px) {
+  /* ************************************************ABOUT US HTML PAGE************************************************ */
+  .AnneSofie {
+    padding: 1em;
+  }
+  .AnneSofieP {
+    padding: 0em;
+    font-size: 0.8em;
+  }
+  .AnneSofiePic {
+    max-width: 90%;
+    padding-left: 1em;
+  }
+  .aboutP {
+    padding: 1em 1em 1em 0em;
+    font-size: 0.8em;
+  }
+  .MissionVision {
+    padding: 1em;
+  }
+  .Mission {
+    width: 230px;
+    height: 230px;
+  }
+
+  .MissionH1 {
+    font-size: 1.8em;
+  }
+  .MissionP {
+    padding: 1em;
+    font-size: 0.8em;
+  }
+  .circleMission {
+    padding-top: 8em;
+    padding-left: 0em;
+  }
+  .Vision {
+    width: 230px;
+    height: 230px;
+  }
+  .VisionH1 {
+    font-size: 1.8em;
+  }
+  .VisionP {
+    padding: 0em;
+    font-size: 0.8em;
+  }
+  .circleVision {
+    padding-left: 0em;
+  }
   /* ************************************************CONTACT HTML PAGE************************************************ */
   /* INTRO TEXT */
   .introContact {
@@ -859,7 +1016,66 @@ input {
 }
 
 /* MOBILE M AND L */
-@media screen and (max-width: 767px) and (min-width: 374px) {
+@media screen and (max-width: 629px) and (min-width: 374px) {
+  /* ************************************************ABOUT US HTML PAGE************************************************ */
+  .aboutH1 {
+    padding-bottom: 0.5em;
+  }
+  .AnneSofie {
+    padding: 0.5em;
+  }
+  .AnneSofieP {
+    padding: 0em;
+    font-size: 0.8em;
+    width: 350px;
+    text-align: center;
+  }
+  .AnneSofiePic {
+    display: none;
+  }
+  .aboutP {
+    padding: 1em;
+    font-size: 0.8em;
+    text-align: center;
+  }
+  .aboutP p {
+    width: 350px;
+    padding: 0;
+  }
+  .MissionVision {
+    padding: 1em;
+  }
+  .Mission {
+    width: 230px;
+    height: 230px;
+  }
+
+  .MissionH1 {
+    font-size: 1.8em;
+  }
+  .MissionP {
+    padding: 1em;
+    font-size: 0.8em;
+  }
+  .circleMission {
+    padding-top: 2em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+  }
+  .Vision {
+    width: 230px;
+    height: 230px;
+  }
+  .VisionH1 {
+    font-size: 1.8em;
+  }
+  .VisionP {
+    padding: 0em;
+    font-size: 0.8em;
+  }
+  .circleVision {
+    padding-left: 1em;
+  }
   /* ************************************************CONTACT HTML PAGE************************************************ */
   /* INTRO TEXT */
   .introContact {
@@ -1009,6 +1225,66 @@ input {
 
 /* MOBILE S SIZE AND SMALLER */
 @media screen and (max-width: 373px) {
+  /* ************************************************ABOUT US HTML PAGE************************************************ */
+  .aboutH1 {
+    padding-bottom: 0.5em;
+    font-size: 1.8em;
+  }
+  .AnneSofie {
+    padding: 0.5em;
+  }
+  .AnneSofieP {
+    padding: 0em;
+    font-size: 0.8em;
+    width: 300px;
+    text-align: center;
+  }
+  .AnneSofiePic {
+    display: none;
+  }
+  .aboutP {
+    padding: 1em;
+    font-size: 0.8em;
+    text-align: center;
+  }
+  .aboutP p {
+    width: 300px;
+    padding: 0;
+  }
+  .MissionVision {
+    padding: 1em;
+  }
+  .Mission {
+    width: 200px;
+    height: 200px;
+  }
+
+  .MissionH1 {
+    font-size: 1.4em;
+  }
+  .MissionP {
+    padding: 0.3em;
+    font-size: 0.7em;
+  }
+  .circleMission {
+    padding-top: 2em;
+    padding-bottom: 1em;
+    padding-left: 0;
+  }
+  .Vision {
+    width: 200px;
+    height: 200px;
+  }
+  .VisionH1 {
+    font-size: 1.4em;
+  }
+  .VisionP {
+    padding: 0em;
+    font-size: 0.7em;
+  }
+  .circleVision {
+    padding-left: 0;
+  }
   /* ************************************************CONTACT HTML PAGE************************************************ */
   .introContact {
     padding: 4em 2em 4em 2em;
