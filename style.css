@@ -101,58 +101,6 @@ li {
   font-size: 2.2em;
 }
 
-/* FORM */
-.formWorkH1 {
-  text-transform: uppercase;
-  color: white;
-  font-family: "Playfair Display", serif;
-  font-size: 2.5em;
-  margin: 15px;
-  font-weight: normal;
-}
-.formWork {
-  background: url(/images/workBg.png);
-  background-size: cover;
-  padding-left: 2em;
-  padding-top: 10em;
-}
-.form-controlWork {
-  border-radius: 10px;
-  margin: 15px;
-  padding-left: 1em;
-  width: 35rem;
-  height: 2.5rem;
-  border: 1px solid white;
-}
-.textareaFormWork {
-  width: 40rem;
-  border-radius: 10px;
-  margin: 15px;
-  padding-left: 1em;
-}
-.formFileWork {
-  padding-left: 1em;
-  color: white;
-  font-size: 1em;
-}
-.CV {
-  text-transform: uppercase;
-  font-size: 1.3em;
-}
-.fileWork {
-  border: none;
-}
-.signupButtonWork {
-  border-radius: 10px;
-  width: 10rem;
-  height: 3rem;
-  text-transform: uppercase;
-  background-color: #036563;
-  color: white;
-  margin-left: 32rem;
-  font-size: larger;
-  border: none;
-}
 /* ************************************************PARTNER HTML PAGE************************************************ */
 /* FORM */
 .partner {
@@ -447,14 +395,308 @@ input {
   text-transform: uppercase;
   font-size: 1.5em;
 }
+/* ************************************************ABOUT US HTML PAGE************************************************ */
+.aboutH1 {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  color: #036563;
+  font-size: 3em;
+  padding: 1em;
+}
+.AnneSofie {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(630px, 0.5fr));
+  padding: 5em;
+  align-items: center;
+  /* background-color: #8b5136; */
+}
+.AnneSofieP {
+  padding: 3em;
+  font-family: "Playfair Display", serif;
+  line-height: 1.6;
+  color: #036563;
+}
+.AnneSofiePic {
+  max-width: 70%;
+  /* max-height: 50%; */
+  padding-left: 5em;
+  align-self: center;
+}
 
+.aboutP {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 0.5fr));
+  padding: 5em;
+  line-height: 2;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  background-color: #036563;
+  color: white;
+}
+.aboutP p {
+  font-family: "Playfair Display", serif;
+  padding-left: 2em;
+}
+
+.MissionVision {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 0.5fr));
+  text-align: center;
+  padding: 3em;
+}
+.Mission {
+  padding: 3em;
+  border-radius: 50%;
+  width: 380px;
+  height: 380px;
+  background-color: #ddb586;
+}
+
+.MissionH1 {
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+  font-size: 3em;
+  padding-bottom: 0.5em;
+}
+.MissionP {
+  padding: 2em;
+}
+.circleMission {
+  padding-top: 8em;
+  padding-left: 10em;
+}
+.Vision {
+  padding: 3em;
+  border-radius: 50%;
+  width: 380px;
+  height: 380px;
+  background-color: #8b5136;
+}
+.VisionH1 {
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+  font-size: 3em;
+  padding-bottom: 0.5em;
+}
+.VisionP {
+  /* background-color: #ddb586; */
+  padding: 1em;
+}
+.circleVision {
+  padding-right: 12em;
+}
+/* ************************************************CONTACT HTML PAGE************************************************ */
+/* INTRO TEXT */
+.introContact {
+  padding: 15em 25em 15em 25em;
+}
+.contactH1 {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  color: #036563;
+  font-size: 2em;
+}
+
+/* FORM */
+.formContactH1 {
+  text-transform: uppercase;
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 2.5em;
+  margin: 15px;
+  font-weight: normal;
+}
+.formContact {
+  background: url(/images/contactusBg.png);
+  background-size: cover;
+  padding-left: 2em;
+  padding-top: 10em;
+}
+.form-controlContact {
+  border-radius: 10px;
+  margin: 15px;
+  padding-left: 1em;
+  width: 35rem;
+  height: 2.5rem;
+  border: 1px solid white;
+}
+.textareaFormContact {
+  width: 40rem;
+  border-radius: 10px;
+  margin: 15px;
+  padding-left: 1em;
+}
+.formFileContact {
+  padding-left: 1em;
+  color: white;
+  font-size: 1em;
+}
+.CV {
+  text-transform: uppercase;
+  font-size: 1.3em;
+}
+.fileContact {
+  border: none;
+}
+.signupButtonContact {
+  border-radius: 10px;
+  width: 10rem;
+  height: 3rem;
+  text-transform: uppercase;
+  background-color: #036563;
+  color: white;
+  margin-left: 32rem;
+  font-size: larger;
+  border: none;
+}
+/* ************************************************WORK HTML PAGE************************************************ */
+/* INTRO TEXT */
+.introWork {
+  padding: 15em 25em 15em 25em;
+}
+.workH1 {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  color: #036563;
+  font-size: 2em;
+}
+
+/* FORM */
+.formWorkH1 {
+  text-transform: uppercase;
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 2.5em;
+  margin: 15px;
+  font-weight: normal;
+}
+.formWork {
+  background: url(/images/workBg.png);
+  background-size: cover;
+  padding-left: 2em;
+  padding-top: 10em;
+}
+.form-controlWork {
+  border-radius: 10px;
+  margin: 15px;
+  padding-left: 1em;
+  width: 35rem;
+  height: 2.5rem;
+  border: 1px solid white;
+}
+.textareaFormWork {
+  width: 40rem;
+  border-radius: 10px;
+  margin: 15px;
+  padding-left: 1em;
+}
+.formFileWork {
+  padding-left: 1em;
+  color: white;
+  font-size: 1em;
+}
+.CV {
+  text-transform: uppercase;
+  font-size: 1.3em;
+}
+.fileWork {
+  border: none;
+}
+.signupButtonWork {
+  border-radius: 10px;
+  width: 10rem;
+  height: 3rem;
+  text-transform: uppercase;
+  background-color: #036563;
+  color: white;
+  margin-left: 32rem;
+  font-size: larger;
+  border: none;
+}
 /* MEDIA QUERIES */
 @media screen and (min-width: 1420px) {
   .mobileWhyQuickit {
     display: none;
   }
 }
-@media screen and (min-width: 1000px) and (max-width: 1400px) {
+/* SMALL LAPTOP */
+@media only screen and (max-width: 1200px) and (min-width: 1000px) {
+  /* ************************************************ABOUT US HTML PAGE************************************************ */
+  .AnneSofie {
+    padding: 2em;
+  }
+  .AnneSofieP {
+    padding: 2em;
+  }
+  .AnneSofiePic {
+    max-width: 70%;
+    padding-left: 5em;
+  }
+
+  .aboutP {
+    padding: 4em;
+    font-size: 0.8em;
+  }
+
+  .MissionVision {
+    padding: 3em;
+  }
+  .Mission {
+    width: 310px;
+    height: 310px;
+  }
+
+  .MissionH1 {
+    font-size: 2.5em;
+  }
+  .MissionP {
+    padding: 2em;
+    font-size: 0.9em;
+  }
+  .circleMission {
+    padding-top: 8em;
+    padding-left: 1em;
+  }
+  .Vision {
+    width: 310px;
+    height: 310px;
+  }
+  .VisionH1 {
+    font-size: 2.5em;
+  }
+  .VisionP {
+    padding: 1em;
+    font-size: 0.9em;
+  }
+  .circleVision {
+    padding-left: 2em;
+  }
+  /* ************************************************CONTACT HTML PAGE************************************************ */
+  .introContact {
+    padding: 12em 16em 12em 16em;
+  }
+  /* FORM */
+  .form-controlContact {
+    width: 30rem;
+  }
+  .textareaFormContact {
+    width: 35rem;
+  }
+
+  /* ************************************************WORK HTML PAGE************************************************ */
+  /* INTRO TEXT */
+  .introWork {
+    padding: 12em 16em 12em 16em;
+  }
+  /* FORM */
+  .form-controlWork {
+    width: 30rem;
+  }
+  .textareaFormWork {
+    width: 35rem;
+  }
+
+  /* ************************************************PARTNER HTML PAGE************************************************ */
   /* CIRCLE */
   .box .popuptext {
     width: 250px;
@@ -520,6 +762,56 @@ input {
 
 /* TABLETS BIG */
 @media only screen and (max-width: 999px) and (min-width: 768px) {
+  /* ************************************************ABOUT US HTML PAGE************************************************ */
+  .AnneSofie {
+    padding: 1em;
+  }
+  .AnneSofieP {
+    padding: 0em;
+  }
+  .AnneSofiePic {
+    max-width: 90%;
+    padding-left: 2em;
+  }
+
+  .aboutP {
+    padding: 4em;
+    font-size: 0.8em;
+  }
+
+  .MissionVision {
+    padding: 3em;
+  }
+  .Mission {
+    width: 250px;
+    height: 250px;
+  }
+
+  .MissionH1 {
+    font-size: 2em;
+  }
+  .MissionP {
+    padding: 1em;
+    font-size: 0.8em;
+  }
+  .circleMission {
+    padding-top: 8em;
+    padding-left: 0em;
+  }
+  .Vision {
+    width: 250px;
+    height: 250px;
+  }
+  .VisionH1 {
+    font-size: 2em;
+  }
+  .VisionP {
+    padding: 0em;
+    font-size: 0.8em;
+  }
+  .circleVision {
+    padding-left: 0em;
+  }
   /* ************************************************CONTACT HTML PAGE************************************************ */
   .introContact {
     padding: 8em 12em 8em 12em;
@@ -664,6 +956,55 @@ input {
 
 /* TABLETS SMALL */
 @media only screen and (max-width: 767px) and (min-width: 640px) {
+  /* ************************************************ABOUT US HTML PAGE************************************************ */
+  .AnneSofie {
+    padding: 1em;
+  }
+  .AnneSofieP {
+    padding: 0em;
+    font-size: 0.8em;
+  }
+  .AnneSofiePic {
+    max-width: 90%;
+    padding-left: 1em;
+  }
+  .aboutP {
+    padding: 1em 1em 1em 0em;
+    font-size: 0.8em;
+  }
+  .MissionVision {
+    padding: 1em;
+  }
+  .Mission {
+    width: 230px;
+    height: 230px;
+  }
+
+  .MissionH1 {
+    font-size: 1.8em;
+  }
+  .MissionP {
+    padding: 1em;
+    font-size: 0.8em;
+  }
+  .circleMission {
+    padding-top: 8em;
+    padding-left: 0em;
+  }
+  .Vision {
+    width: 230px;
+    height: 230px;
+  }
+  .VisionH1 {
+    font-size: 1.8em;
+  }
+  .VisionP {
+    padding: 0em;
+    font-size: 0.8em;
+  }
+  .circleVision {
+    padding-left: 0em;
+  }
   /* ************************************************CONTACT HTML PAGE************************************************ */
   /* INTRO TEXT */
   .introContact {
@@ -766,7 +1107,66 @@ input {
 }
 
 /* MOBILE M AND L */
-@media screen and (max-width: 767px) and (min-width: 374px) {
+@media screen and (max-width: 629px) and (min-width: 374px) {
+  /* ************************************************ABOUT US HTML PAGE************************************************ */
+  .aboutH1 {
+    padding-bottom: 0.5em;
+  }
+  .AnneSofie {
+    padding: 0.5em;
+  }
+  .AnneSofieP {
+    padding: 0em;
+    font-size: 0.8em;
+    width: 350px;
+    text-align: center;
+  }
+  .AnneSofiePic {
+    display: none;
+  }
+  .aboutP {
+    padding: 1em;
+    font-size: 0.8em;
+    text-align: center;
+  }
+  .aboutP p {
+    width: 350px;
+    padding: 0;
+  }
+  .MissionVision {
+    padding: 1em;
+  }
+  .Mission {
+    width: 230px;
+    height: 230px;
+  }
+
+  .MissionH1 {
+    font-size: 1.8em;
+  }
+  .MissionP {
+    padding: 1em;
+    font-size: 0.8em;
+  }
+  .circleMission {
+    padding-top: 2em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+  }
+  .Vision {
+    width: 230px;
+    height: 230px;
+  }
+  .VisionH1 {
+    font-size: 1.8em;
+  }
+  .VisionP {
+    padding: 0em;
+    font-size: 0.8em;
+  }
+  .circleVision {
+    padding-left: 1em;
+  }
   /* ************************************************CONTACT HTML PAGE************************************************ */
   /* INTRO TEXT */
   .introContact {
@@ -940,6 +1340,66 @@ input {
 
 /* MOBILE S SIZE AND SMALLER */
 @media screen and (max-width: 373px) {
+  /* ************************************************ABOUT US HTML PAGE************************************************ */
+  .aboutH1 {
+    padding-bottom: 0.5em;
+    font-size: 1.8em;
+  }
+  .AnneSofie {
+    padding: 0.5em;
+  }
+  .AnneSofieP {
+    padding: 0em;
+    font-size: 0.8em;
+    width: 300px;
+    text-align: center;
+  }
+  .AnneSofiePic {
+    display: none;
+  }
+  .aboutP {
+    padding: 1em;
+    font-size: 0.8em;
+    text-align: center;
+  }
+  .aboutP p {
+    width: 300px;
+    padding: 0;
+  }
+  .MissionVision {
+    padding: 1em;
+  }
+  .Mission {
+    width: 200px;
+    height: 200px;
+  }
+
+  .MissionH1 {
+    font-size: 1.4em;
+  }
+  .MissionP {
+    padding: 0.3em;
+    font-size: 0.7em;
+  }
+  .circleMission {
+    padding-top: 2em;
+    padding-bottom: 1em;
+    padding-left: 0;
+  }
+  .Vision {
+    width: 200px;
+    height: 200px;
+  }
+  .VisionH1 {
+    font-size: 1.4em;
+  }
+  .VisionP {
+    padding: 0em;
+    font-size: 0.7em;
+  }
+  .circleVision {
+    padding-left: 0;
+  }
   /* ************************************************CONTACT HTML PAGE************************************************ */
   .introContact {
     padding: 4em 2em 4em 2em;
