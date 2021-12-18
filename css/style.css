@@ -411,7 +411,7 @@ input {
 }
 .AnneSofie {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(630px, 0.5fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 0.5fr));
   padding: 5em;
   align-items: center;
   /* background-color: #8b5136; */
@@ -624,18 +624,24 @@ input {
   .mobileWhyQuickit {
     display: none;
   }
+  .videoMobile {
+    display: none;
+  }
 }
 /* SMALL LAPTOP */
 @media only screen and (max-width: 1200px) and (min-width: 1000px) {
   /* ************************************************ABOUT US HTML PAGE************************************************ */
+  .videoMobile {
+    display: none;
+  }
   .AnneSofie {
     padding: 2em;
   }
   .AnneSofieP {
-    padding: 2em;
+    padding: 1em;
   }
   .AnneSofiePic {
-    max-width: 70%;
+    max-width: 60%;
     padding-left: 5em;
   }
 
@@ -769,6 +775,9 @@ input {
 /* TABLETS BIG */
 @media only screen and (max-width: 999px) and (min-width: 768px) {
   /* ************************************************ABOUT US HTML PAGE************************************************ */
+  .videoMobile {
+    display: none;
+  }
   .AnneSofie {
     padding: 1em;
   }
@@ -963,6 +972,9 @@ input {
 /* TABLETS SMALL */
 @media only screen and (max-width: 767px) and (min-width: 640px) {
   /* ************************************************ABOUT US HTML PAGE************************************************ */
+  .videoMobile {
+    display: none;
+  }
   .AnneSofie {
     padding: 1em;
   }
@@ -1114,6 +1126,16 @@ input {
 
 /* MOBILE M AND L */
 @media screen and (max-width: 629px) and (min-width: 374px) {
+  .video {
+    display: none;
+  }
+  .videoMobile img {
+    width: 20%;
+    height: 20%;
+  }
+  .centerVideoMobile {
+    text-align: center;
+  }
   /* ************************************************ABOUT US HTML PAGE************************************************ */
   .aboutH1 {
     padding-bottom: 0.5em;
@@ -1347,6 +1369,16 @@ input {
 /* MOBILE S SIZE AND SMALLER */
 @media screen and (max-width: 373px) {
   /* ************************************************ABOUT US HTML PAGE************************************************ */
+  .video {
+    display: none;
+  }
+  .videoMobile img {
+    width: 20%;
+    height: 20%;
+  }
+  .centerVideoMobile {
+    text-align: center;
+  }
   .aboutH1 {
     padding-bottom: 0.5em;
     font-size: 1.8em;
