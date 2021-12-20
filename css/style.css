@@ -413,7 +413,7 @@ input {
   color: #036563;
 }
 .AnneSofiePic {
-  max-width: 70%;
+  max-width: 80%;
   /* max-height: 50%; */
   padding-left: 5em;
   align-self: center;
@@ -630,10 +630,10 @@ input {
   }
   .AnneSofieP {
     padding: 1em;
+    font-size: 0.8em;
   }
   .AnneSofiePic {
-    max-width: 60%;
-    padding-left: 5em;
+    padding-left: 4em;
   }
 
   .aboutP {
@@ -774,6 +774,7 @@ input {
   }
   .AnneSofieP {
     padding: 0em;
+    font-size: 0.7em;
   }
   .AnneSofiePic {
     max-width: 90%;
@@ -1117,6 +1118,7 @@ input {
 
 /* MOBILE M AND L */
 @media screen and (max-width: 629px) and (min-width: 374px) {
+  /* ************************************************ABOUT US HTML PAGE************************************************ */
   .video {
     display: none;
   }
@@ -1127,7 +1129,6 @@ input {
   .centerVideoMobile {
     text-align: center;
   }
-  /* ************************************************ABOUT US HTML PAGE************************************************ */
   .aboutH1 {
     padding-bottom: 0.5em;
   }
