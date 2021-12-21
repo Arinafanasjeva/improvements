@@ -22,6 +22,7 @@ nav img {
 nav a {
   text-decoration: none;
 }
+
 img.landpics {
   border-radius: 20%;
 }
@@ -29,7 +30,19 @@ img.landpics2 {
   border-radius: 25%;
   margin-top: 6.5em;
 }
-
+.Demo {
+  position: relative;
+}
+video {
+  border-radius: 30%;
+}
+.overlay {
+  position: absolute;
+  z-index: 300000;
+  max-width: 420px;
+  max-height: 420px;
+  padding-left: 14.7em;
+}
 ul {
   list-style: none;
 }
@@ -158,6 +171,10 @@ figure {
   .apps img {
     max-width: 60%;
   }
+  h2,
+  h3 {
+    text-align: center;
+  }
   h3.download {
     display: grid;
     grid-column: 1/3;
@@ -173,6 +190,9 @@ figure {
     margin-top: 4.5em;
     margin-left: 7em;
   }
+  .restos a:hover {
+    opacity: 0.7;
+  }
   .division1 {
     display: grid;
     grid-column: 1/2;
@@ -183,7 +203,13 @@ figure {
     margin-top: 5em;
     margin-left: 15em;
   }
-  .divi h2 {
+  .overlay {
+    position: absolute;
+    z-index: 300000;
+    max-width: 420px;
+    max-height: 420px;
+  }
+  h2.Align {
     text-align: center;
   }
   .how-to {
@@ -214,5 +240,15 @@ figure {
   .meals {
     display: grid;
     grid-template-columns: repeat(3, auto);
+  }
+}
+@media only screen and (max-width: 800px) {
+  .overlay {
+    margin-top: 3em;
+    padding-left: 9em;
+  }
+  video {
+    padding: 3em;
+    padding-left: 9.5em;
   }
 }
