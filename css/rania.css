@@ -168,6 +168,7 @@ figure {
     margin-right: 10em;
     text-align: center;
   }
+
   .apps img {
     max-width: 60%;
   }
@@ -250,5 +251,9 @@ figure {
   video {
     padding: 3em;
     padding-left: 9.5em;
+  }
+  h2,
+  h3 {
+    text-align: center;
   }
 }

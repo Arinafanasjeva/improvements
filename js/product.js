@@ -66,3 +66,4 @@ function myFunction7() {
   const popup = document.getElementById("myPopup7");
   popup.classList.toggle("show");
 }
+myFunction1();
