@@ -165,7 +165,18 @@ figure {
     display: grid;
     grid-column: 1/3;
   }
-
+  .how-to {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .Demo {
+    display: grid;
+    grid-column: 1/2;
+  }
+  .dem {
+    display: grid;
+    grid-column: 2/3;
+  }
   .apps img {
     max-width: 60%;
   }
