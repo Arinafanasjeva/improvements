@@ -124,6 +124,14 @@ figure {
   text-align: center;
 }
 @media only screen and (min-width: 800px) {
+  .Demo > h3 {
+    margin-left: 33em;
+    margin-top: -17em;
+  }
+
+  ul.restos {
+    margin-top: 10em;
+  }
   div.container {
     list-style: none;
     display: grid;
@@ -172,8 +180,7 @@ figure {
   .apps img {
     max-width: 60%;
   }
-  h2,
-  h3 {
+  h2 {
     text-align: center;
   }
   h3.download {
