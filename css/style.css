@@ -631,7 +631,7 @@ input {
   cursor: pointer;
 }
 /* MEDIA QUERIES */
-@media screen and (min-width: 1420px) {
+@media screen and (min-width: 1300px) {
   .mobileWhyQuickit {
     display: none;
   }
