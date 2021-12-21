@@ -176,6 +176,7 @@ figure {
   .dem {
     display: grid;
     grid-column: 2/3;
+    text-align: center;
   }
   .apps img {
     max-width: 60%;
