@@ -631,7 +631,7 @@ input {
   cursor: pointer;
 }
 /* MEDIA QUERIES */
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1201px) {
   .mobileWhyQuickit {
     display: none;
   }
@@ -720,9 +720,7 @@ input {
   }
 
   /* ************************************************PARTNER HTML PAGE************************************************ */
-  .mobileWhyQuickit {
-    display: none;
-  }
+
   /* CIRCLE */
   .box .popuptext {
     width: 250px;
