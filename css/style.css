@@ -43,6 +43,17 @@ nav a {
 li {
   text-transform: uppercase;
 }
+footer {
+  background-color: #086761;
+  color: white;
+  font-family: "Playfair Display", serif;
+}
+footer ul {
+  list-style: none;
+  text-align: center;
+  padding: 30px;
+  line-height: 1.7;
+}
 /* ************************************************CONTACT HTML PAGE************************************************ */
 /* INTRO TEXT */
 .introContact {

@@ -130,7 +130,7 @@ figure {
   }
 
   ul.restos {
-    margin-top: 10em;
+    margin-top: 20em;
   }
   div.container {
     list-style: none;
@@ -176,7 +176,10 @@ figure {
     margin-right: 10em;
     text-align: center;
   }
-
+  h3.dem {
+    padding-left: 30em;
+    margin-top: -15em;
+  }
   .apps img {
     max-width: 60%;
   }
