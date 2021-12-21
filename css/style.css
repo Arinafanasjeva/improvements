@@ -720,6 +720,9 @@ input {
   }
 
   /* ************************************************PARTNER HTML PAGE************************************************ */
+  .mobileWhyQuickit {
+    display: none;
+  }
   /* CIRCLE */
   .box .popuptext {
     width: 250px;
