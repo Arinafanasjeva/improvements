@@ -169,15 +169,6 @@ figure {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-  .Demo {
-    display: grid;
-    grid-column: 1/2;
-  }
-  .dem {
-    display: grid;
-    grid-column: 2/3;
-    text-align: center;
-  }
   .apps img {
     max-width: 60%;
   }
@@ -187,6 +178,9 @@ figure {
   div.dem {
     margin-left: 15em;
     margin-top: -22em;
+  }
+  h3.dem {
+    text-align: center;
   }
   h3.download {
     display: grid;
@@ -258,11 +252,11 @@ figure {
 @media only screen and (max-width: 800px) {
   .overlay {
     margin-top: 3em;
-    padding-left: 9em;
+    padding-left: 14em;
   }
   video {
     padding: 3em;
-    padding-left: 9.5em;
+    padding-left: 14.5em;
   }
   h2,
   h3 {
