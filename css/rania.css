@@ -126,7 +126,7 @@ figure {
 
 @media only screen and (min-width: 800px) {
   ul.restos {
-    margin-top: 20em;
+    margin-top: 2em;
   }
   div.container {
     list-style: none;
@@ -180,6 +180,8 @@ figure {
     margin-top: -22em;
   }
   h3.dem {
+    margin-top: 9em;
+    margin-left: 6em;
     text-align: center;
   }
   h3.download {
